@@ -1,0 +1,3 @@
+1 - instale o docker em sua maquina
+2 - execute esse comando $ sudo docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=conexasaudedb -e MYSQL_USER=springuser -e MYSQL_PASSWORD=password mysql
+3 - execute a aplicacao
