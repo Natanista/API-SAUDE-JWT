@@ -1,4 +1,4 @@
-# Desafio Técnico backend Conexa
+# API SAUDE
 
 Construir uma API REST para que nossos médicos de plantão consigam se logar na plataforma e agendar atendimentos para pacientes.
 
@@ -20,7 +20,7 @@ endpoint:  /api/v1/signup
 ```
 
 ### Login
-Precisamos de uma rota para que médicos da clínica Conexa Saúde consigam realizar login na aplicação:
+Precisamos de uma rota para que médicos da clínica Saúde consigam realizar login na aplicação:
 ```
 Request:
   POST /api/v1/login
@@ -70,24 +70,7 @@ Authorization: token_jwt
 - Só pode ser possível criar agendamentos no futuro;
 
 
-# Requisitos Obrigatórios:
-- Utilização de Java com Spring;
-- Banco de dados MySQL;
-- Realizar fork deste repositório, e após o desenvolvimento, abrir um merge request apontando para repositório original;
-
-
-# Serão avaliados os seguintes itens:
-* Se todos os requisitos descritos acima foram atendidos;
-* Clareza do código;
-* Estrutura de código organizada;
-* Se utilizou corretamente os conceitos do REST;
-* Se utilizou o Spring de forma correta;
-* Se possui tratamento de erros;
-* Se os testes rodam;
-
 **Obs:**
 Necessário descrever, ou prover, todas as dependências e ações necessárias (banco, tabelas, versões, etc) para que o avaliador consiga rodar a aplicação na sua máquina local;
 
 **Lembre-se que uma aplicação boa é uma aplicação bem testada;**
-
-Em caso de dúvidas sobre o desafio, entre em contato.
